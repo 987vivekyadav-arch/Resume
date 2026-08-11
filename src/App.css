@@ -196,4 +196,113 @@ footer p {
         margin-top: 2px;
     }
 
+}/* PRINT RESUME */
+
+@media print {
+
+    @page {
+        size: A4;
+        margin: 8mm;
+    }
+
+    body {
+        background: white;
+    }
+
+    .resume {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        padding: 10px 20px;
+    }
+
+    .header {
+        padding-bottom: 10px;
+        margin-bottom: 12px;
+    }
+
+    .header h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    .header h2 {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    .contact {
+        gap: 7px;
+        font-size: 11px;
+    }
+
+    section {
+        margin-bottom: 12px;
+    }
+
+    section h3 {
+        font-size: 15px;
+        padding-bottom: 3px;
+        margin-bottom: 6px;
+    }
+
+    section p {
+        font-size: 11px;
+        line-height: 1.25;
+    }
+
+    .skills {
+        gap: 4px;
+    }
+
+    .skills span {
+        padding: 3px 6px;
+        font-size: 10px;
+    }
+
+    .project {
+        margin-bottom: 8px;
+    }
+
+    .projectTop {
+        gap: 8px;
+    }
+
+    .projectTop h4 {
+        font-size: 12px;
+    }
+
+    .projectTop span {
+        font-size: 10px;
+    }
+
+    .project p {
+        margin-top: 2px;
+    }
+
+    .projectLinks {
+        gap: 10px;
+        margin-top: 2px;
+    }
+
+    .projectLinks a {
+        font-size: 10px;
+    }
+
+    .education h4 {
+        font-size: 12px;
+        margin-top: 4px;
+    }
+
+    .education p {
+        font-size: 10px;
+    }
+
+    footer {
+        padding-top: 6px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
 }
