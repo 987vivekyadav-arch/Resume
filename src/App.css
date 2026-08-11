@@ -27,7 +27,7 @@ body {
 
 .header h1 {
     font-size: 36px;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
 }
 
 .header h2 {
@@ -49,6 +49,12 @@ body {
     color: #222;
     text-decoration: none;
     font-weight: bold;
+}.portfolio{
+  border:2px, solid black ;
+  padding: 5px;
+  border-radius: 10px;
+  background: rgb(157, 255, 0);
+  color:white;
 }
 
 section {

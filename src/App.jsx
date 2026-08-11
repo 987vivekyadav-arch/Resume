@@ -90,7 +90,7 @@ function App() {
 
                 <div className="contact">
 
-                    <span>[8840042929,9565802130]</span>
+                    <span>8840042929</span>
 
                     <span>[987vivekyadav@gmail.com]</span>
 
@@ -112,7 +112,7 @@ function App() {
                         GitHub
                     </a>
 
-                    <a
+                    <a className="portfolio"
                         href="https://port-folio-sukh.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
