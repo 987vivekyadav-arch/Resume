@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eeeeee;
+    color: #222;
+}
+
+.resume {
+    width: 850px;
+    max-width: 95%;
+    margin: 30px auto;
+    background: white;
+    padding: 45px 55px;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 2px solid #222;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.header h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 13px;
+}
+
+.contact a {
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 22px;
+}
+
+section h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #999;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* SKILLS */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.skills span {
+    border: 1px solid #999;
+    padding: 4px 9px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+
+/* PROJECTS */
+
+.project {
+    margin-bottom: 16px;
+}
+
+.projectTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.projectTop h4 {
+    font-size: 16px;
+}
+
+.projectTop span {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.project p {
+    margin-top: 3px;
+}
+
+.projectLinks {
+    display: flex;
+    gap: 15px;
+    margin-top: 4px;
+}
+
+.projectLinks a {
+    color: #222;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.projectLinks a:hover,
+.contact a:hover {
+    text-decoration: underline;
+}
+
+
+/* EDUCATION */
+
+.education h4 {
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+.education p {
+    font-size: 13px;
+}
+
+
+/* FOOTER */
+
+footer {
+    border-top: 1px solid #999;
+    padding-top: 12px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .resume {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 30px 20px;
+    }
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .header h2 {
+        font-size: 15px;
+    }
+
+    .contact {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .projectTop {
+        display: block;
+    }
+
+    .projectTop span {
+        display: block;
+        margin-top: 2px;
+    }
+
+}
