@@ -174,10 +174,12 @@ footer p {
 
     .header h1 {
         font-size: 30px;
+        color: black;
     }
 
     .header h2 {
         font-size: 15px;
+        color: black;
     }
 
     .contact {
