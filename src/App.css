@@ -200,109 +200,49 @@ footer p {
 
 @media print {
 
-    @page {
-        size: A4;
-        margin: 8mm;
-    }
+  @page {
+    size: A4;
+    margin: 8mm;
+  }
 
-    body {
-        background: white;
-    }
+  body {
+    margin: 0;
+  }
 
-    .resume {
-        width: 100%;
-        max-width: none;
-        margin: 0;
-        padding: 10px 20px;
-    }
+  .resume {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 
-    .header {
-        padding-bottom: 10px;
-        margin-bottom: 12px;
-    }
+  section {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
 
-    .header h1 {
-        font-size: 28px;
-        margin-bottom: 8px;
-    }
+  h1 {
+    margin: 5px 0;
+  }
 
-    .header h2 {
-        font-size: 15px;
-        margin-bottom: 8px;
-    }
+  h2 {
+    margin: 3px 0;
+  }
 
-    .contact {
-        gap: 7px;
-        font-size: 11px;
-    }
+  h3 {
+    margin: 7px 0 4px;
+  }
 
-    section {
-        margin-bottom: 12px;
-    }
+  p {
+    margin: 4px 0;
+  }
 
-    section h3 {
-        font-size: 15px;
-        padding-bottom: 3px;
-        margin-bottom: 6px;
-    }
+  .project {
+    margin-bottom: 6px;
+  }
 
-    section p {
-        font-size: 11px;
-        line-height: 1.25;
-    }
-
-    .skills {
-        gap: 4px;
-    }
-
-    .skills span {
-        padding: 3px 6px;
-        font-size: 10px;
-    }
-
-    .project {
-        margin-bottom: 8px;
-    }
-
-    .projectTop {
-        gap: 8px;
-    }
-
-    .projectTop h4 {
-        font-size: 12px;
-    }
-
-    .projectTop span {
-        font-size: 10px;
-    }
-
-    .project p {
-        margin-top: 2px;
-    }
-
-    .projectLinks {
-        gap: 10px;
-        margin-top: 2px;
-    }
-
-    .projectLinks a {
-        font-size: 10px;
-    }
-
-    .education h4 {
-        font-size: 12px;
-        margin-top: 4px;
-    }
-
-    .education p {
-        font-size: 10px;
-    }
-
-    footer {
-        padding-top: 6px;
-    }
-
-    footer p {
-        font-size: 10px;
-    }
+  footer {
+    margin-top: 6px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
 }
