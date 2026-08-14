@@ -49,12 +49,14 @@ body {
     color: #222;
     text-decoration: none;
     font-weight: bold;
-}.portfolio{
-  border:2px, solid black ;
-  padding: 5px;
-  border-radius: 10px;
-  background: rgb(157, 255, 0);
-  color:white;
+}
+
+.portfolio {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgb(157, 255, 0);
+    color: white;
 }
 
 section {
@@ -195,54 +197,135 @@ footer p {
         display: block;
         margin-top: 2px;
     }
+}
 
-}/* PRINT RESUME */
+
+/* =========================
+   PRINT RESUME
+   ========================= */
 
 @media print {
 
-  @page {
-    size: A4;
-    margin: 8mm;
-  }
+    @page {
+        size: A4;
+        margin: 5mm;
+    }
 
-  body {
-    margin: 0;
-  }
+    body {
+        background: white;
+        margin: 0;
+    }
 
-  .resume {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
+    .resume {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        padding: 5px 15px;
 
-  section {
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
+        /* Makes the complete resume fit on one A4 page */
+        zoom: 0.85;
+    }
 
-  h1 {
-    margin: 5px 0;
-  }
+    .header {
+        padding-bottom: 8px;
+        margin-bottom: 10px;
+    }
 
-  h2 {
-    margin: 3px 0;
-  }
+    .header h1 {
+        font-size: 27px;
+        margin-bottom: 6px;
+    }
 
-  h3 {
-    margin: 7px 0 4px;
-  }
+    .header h2 {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
 
-  p {
-    margin: 4px 0;
-  }
+    .contact {
+        gap: 6px;
+        font-size: 10px;
+    }
 
-  .project {
-    margin-bottom: 6px;
-  }
+    section {
+        margin-bottom: 8px;
+    }
 
-  footer {
-    margin-top: 6px;
-    break-inside: avoid;
-    page-break-inside: avoid;
-  }
+    section h3 {
+        font-size: 14px;
+        padding-bottom: 2px;
+        margin-bottom: 4px;
+    }
+
+    section p {
+        font-size: 10px;
+        line-height: 1.2;
+    }
+
+
+    /* SKILLS */
+
+    .skills {
+        gap: 3px;
+    }
+
+    .skills span {
+        padding: 2px 5px;
+        font-size: 9px;
+    }
+
+
+    /* PROJECTS */
+
+    .project {
+        margin-bottom: 5px;
+    }
+
+    .projectTop {
+        gap: 6px;
+    }
+
+    .projectTop h4 {
+        font-size: 11px;
+    }
+
+    .projectTop span {
+        font-size: 9px;
+    }
+
+    .project p {
+        margin-top: 1px;
+    }
+
+    .projectLinks {
+        gap: 8px;
+        margin-top: 1px;
+    }
+
+    .projectLinks a {
+        font-size: 9px;
+    }
+
+
+    /* EDUCATION */
+
+    .education h4 {
+        font-size: 11px;
+        margin-top: 3px;
+    }
+
+    .education p {
+        font-size: 9px;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        padding-top: 4px;
+        margin-top: 3px;
+    }
+
+    footer p {
+        font-size: 9px;
+    }
 }
