@@ -90,14 +90,22 @@ function App() {
 
                 <div className="contact">
 
-                    <span>8840042929</span>
+                    <a href="tel:+918840042929">
+                        8840042929
+                    </a>
 
-                    <span>[987vivekyadav@gmail.com]</span>
+                    <a href="mailto:987vivekyadav@gmail.com">
+                        987vivekyadav@gmail.com
+                    </a>
 
-                    <span>[Orai, Uttar Pradesh]</span>
+                    <span>
+                        Orai, Uttar Pradesh
+                    </span>
+
+                    {/* REPLACE THIS WITH YOUR REAL LINKEDIN URL */}
 
                     <a
-                        href="[LinkedIn URL]"
+                        href="https://www.linkedin.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -112,7 +120,8 @@ function App() {
                         GitHub
                     </a>
 
-                    <a className="portfolio"
+                    <a
+                        className="portfolio"
                         href="https://port-folio-sukh.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -241,8 +250,7 @@ function App() {
                 <h3>Additional Projects</h3>
 
                 <p>
-                    Counter App • Toggle App • Todo App •
-                    Calculator
+                    Counter App • Toggle App • Todo App • Calculator
                 </p>
 
             </section>
@@ -257,27 +265,29 @@ function App() {
                 <div className="education">
 
                     <h4>
-                        [Bachelor of Arts(B.A)/History,Politics,English ]
+                        Bachelor of Arts (B.A) / History, Politics, English
                     </h4>
-                      <p>
-                        [C.S.J.M.U  University (Kanpur)] • [2019-2021]
-                    </p>
-
-<h4>
-                        [ Diploma in Pharmacy(D.Pharm) ]
-                    </h4>
-                  
 
                     <p>
-                        [ Major S.D Singh (Fatehgarh)] • [2024-2025]
+                        C.S.J.M.U University (Kanpur) • 2019-2021
                     </p>
+
 
                     <h4>
-                        [12th ICSE Board (PCM) ]
+                        Diploma in Pharmacy (D.Pharm)
                     </h4>
 
                     <p>
-                        [Maharana Pratap Education Center / CISCE(ICSE)] • [2019]
+                        Major S.D Singh (Fatehgarh) • 2024-2025
+                    </p>
+
+
+                    <h4>
+                        12th ICSE Board (PCM)
+                    </h4>
+
+                    <p>
+                        Maharana Pratap Education Center / CISCE (ICSE) • 2019
                     </p>
 
                 </div>
